@@ -44,8 +44,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .page-body {
@@ -154,16 +152,14 @@ header {
 
 /* General - Footer */
 
-.container-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .logo-footer {
   margin-bottom: 20px;
 }
 
 .contacts {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--bc-color);
   letter-spacing: 0.03em;
 }
@@ -252,6 +248,11 @@ header {
   margin-bottom: 50px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Advantages */
 
 .advantages {
@@ -284,7 +285,7 @@ header {
 
 /* What are we doing */
 
-.container-work {
+.section-work {
   padding-top: 0;
 }
 
@@ -357,9 +358,7 @@ header {
 .filters {
   display: flex;
   margin-bottom: 50px;
-  max-width: 612px;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
 }
 
 .filters-item:not(:last-child) {
